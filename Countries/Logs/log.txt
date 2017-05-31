@@ -1,0 +1,28 @@
+﻿
+Exception : 4:43:53 PM Wednesday, February 1, 2017
+  :
+  :Could not find file 'C:\Users\Mike\Documents\Visual Studio 2012\Projects\DotNetHiringTest\Countries\Models\all.json'.
+  :
+  :
+-------------------------------
+
+Exception : 1:02:45 PM Wednesday, May 31, 2017
+  :
+  :The remote name could not be resolved: 'www.restcountries.eu'
+  :
+  :
+-------------------------------
+
+Exception : 1:03:33 PM Wednesday, May 31, 2017
+  :
+  :The remote name could not be resolved: 'www.restcountries.eu'
+  :
+  :
+-------------------------------
+
+Exception : 1:05:00 PM Wednesday, May 31, 2017
+  :
+  :The remote name could not be resolved: 'www.restcountries.eu'
+  :
+  :
+-------------------------------

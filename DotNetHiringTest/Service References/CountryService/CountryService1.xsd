@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:55713/CountryService.svc?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/DotNetHiringTest.Models" />
+  <xs:element name="GetCountries">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCountriesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DotNetHiringTest.Models" minOccurs="0" name="GetCountriesResult" nillable="true" type="q1:ArrayOfCountry" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCountryById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="countryId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCountryByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/DotNetHiringTest.Models" minOccurs="0" name="GetCountryByIdResult" nillable="true" type="q2:Country" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCountryByAlpha3Code">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="alpha3Code" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCountryByAlpha3CodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DotNetHiringTest.Models" minOccurs="0" name="GetCountryByAlpha3CodeResult" nillable="true" type="q3:Country" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTranslations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="countryAlpha3Code" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lanuageCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTranslationsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DotNetHiringTest.Models" minOccurs="0" name="GetTranslationsResult" nillable="true" type="q4:ArrayOfTranslation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

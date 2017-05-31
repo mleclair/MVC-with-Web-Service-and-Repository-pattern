@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3f67f42c-e298-4618-b008-8d38adce23bf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55713/CountryService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CountryService1.xsd" MetadataType="Schema" ID="9639c674-f2b4-4dbd-93a1-dfb42576c45d" SourceId="1" SourceUrl="http://localhost:55713/CountryService.svc?xsd=xsd3" />
+    <MetadataFile FileName="CountryService2.xsd" MetadataType="Schema" ID="12ab5399-c967-4f86-8127-1532c7acc143" SourceId="1" SourceUrl="http://localhost:55713/CountryService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CountryService3.xsd" MetadataType="Schema" ID="8e4a2bcb-b359-4bc9-b57f-4fc9ac65fd0e" SourceId="1" SourceUrl="http://localhost:55713/CountryService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CountryService4.xsd" MetadataType="Schema" ID="8a9ad5d0-b516-42e2-a50d-001fb9417fc8" SourceId="1" SourceUrl="http://localhost:55713/CountryService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CountryService.disco" MetadataType="Disco" ID="f2167813-9e0b-423c-999c-bca3188b9520" SourceId="1" SourceUrl="http://localhost:55713/CountryService.svc?disco" />
+    <MetadataFile FileName="CountryService.wsdl" MetadataType="Wsdl" ID="f0abaf14-d3ea-4f23-8f65-4f9813f31662" SourceId="1" SourceUrl="http://localhost:55713/CountryService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
